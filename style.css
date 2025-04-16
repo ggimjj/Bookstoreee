@@ -1,1 +1,134 @@
+<style>
+<head>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f5f5dc;
+  color: #000;
+}
 
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header-links {
+  display: flex;
+  gap: 5px;
+}
+
+.main-content {
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left-section {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* background-color: #d3d3d3; REMOVE THIS */
+  border: 4px solid #2c3e50;
+  box-sizing: border-box;
+  background-image: url('https://i.imgur.com/EXAMPLE.jpg');  /* REPLACE WITH YOUR LINK */
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.popular-categories {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+}
+
+.category {
+  height: 150px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.category-title {
+  color: #fff;
+}
+
+.category-history {
+  background-color: #543a2a;
+  background-image: url('history.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.category-romance {
+  background-color: #c45856;
+  background-image: url('romance.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.category-science {
+  background-color: #6b8e23;
+  background-image: url('science.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.popular-categories > h2 {
+    padding: 0 20px;
+}
+</style>
+</head>
